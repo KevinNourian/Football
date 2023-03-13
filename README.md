@@ -10,7 +10,7 @@ In this report, I analyze the data of the Ultimate 25k+ Matches Football Databas
 For this project, I created a separate Jupyter Notebook for the data overview and cleaning part of this report. Therefore, this project is comprised of two Jupyter Notebooks:
 1. Data Overview and Cleaning Notebook
 2. The Project Notebook
-We are currently in the Project Notebook which imports the Data Overview and Cleaning Notebook in a later section.
+Open the Project Notebook. It will import the Data Overview and Cleaning Notebook.
 
 # Technical Requirements
 1. Perform Data cleaning, exploratory data analysis and feature engineering.
@@ -34,13 +34,13 @@ I used the Ultimate 25k+ Matches Football Database - European dataset from Kaggl
     7. Match
 
 # Standards
-**Standard 1:** In the matches table, 11 players from each team are listed. I assumed that these 11 players are the only players that participated in the specific game, although this is highly unlikely.
-**Standard 2:** I changed all column headers to follow the specific format of capitalizing the first letter of each word and connecting the words without underscore, like this example: "CountryID".
-**Standard 3:** If a column contained more than 75% missing data, I eliminated that column from the table.
+**Standard 1:** In the matches table, 11 players from each team are listed. I assumed that these 11 players are the only players that participated in the specific game, although this is highly unlikely.<BR>
+**Standard 2:** I changed all column headers to follow the specific format of capitalizing the first letter of each word and connecting the words without underscore, like this example: "CountryID".<BR>
+**Standard 3:** If a column contained more than 75% missing data, I eliminated that column from the table.<BR>
 **Standard 4:** To keep the data as concise as possible, I dropped any column that I deemed unnecessary or useful to achieve the goals of this report.
 
 # Biases
-**Bias 1:** Clear information about players in each team is not part of this data set. This may be because the players can change at any moment in the game and this information is not entered.
+**Bias 1:** Clear information about players in each team is not part of this data set. This may be because the players can change at any moment in the game and this information is not entered.<BR>
 **Bias 2:** I have no expertise in football. There may be parts of the data that I have overlooked that may have been most important and I may have given importance to parts of the data that may have had little significance.
 
 # Conclusions
