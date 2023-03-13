@@ -1,0 +1,59 @@
+![Alt_Text](https://github.com/KevinNourian/Red-Wine/blob/main/Images/Wine.PNG)
+
+# Introduction
+Football is believed to have originated in China in the third century BC. It is the world’s most popular ball game in numbers of players and spectators. Football, is a game in which two teams of 11 players, use any part of their bodies except their hands and arms to maneuver the ball into the opposing team’s goal. Only the goalkeeper is permitted to use his hands and may do so only within the penalty area surrounding the goal. The team that scores the most goals wins. The standard length of a game is 90 minutes with a short break, known as "half time," at the 45-minute mark. Football’s governing body is the Fédération Internationale de Football Association (FIFA). Only America and Canada call the sport soccer.
+
+# Goal
+In this report, I analyze the data of the Ultimate 25k+ Matches Football Database (European) from Kaggle to determine if there are ways to gain an advantage in predicting the outcome of a game for purposes of betting.
+
+# Jupyter Notebooks
+For this project, I created a separate Jupyter Notebook for the data overview and cleaning part of this report. Therefore, this project is comprised of two Jupyter Notebooks:
+1. Data Overview and Cleaning Notebook
+2. The Project Notebook
+We are currently in the Project Notebook which imports the Data Overview and Cleaning Notebook in a later section.
+
+# Technical Requirements
+1. Perform Data cleaning, exploratory data analysis and feature engineering.
+2. Use parameters that gives the most important statistical insights of the data.
+3. Create visualizations.
+4. Perform statistical inferences and hypothesis testing. Set appropriate significance levels and create confidence intervals for the variables of interest.
+5. Apply linear machine learning models and use them for forecasting.
+6. Use cross validation, information criteria, and other methods to specify correct modeling.
+7. Choose and use appropriate metrics to measure models' performances.
+8. Provide clear explanations.
+9. Provide conclusions and suggest how the analysis can be improved.
+
+# Datasets
+I used the Ultimate 25k+ Matches Football Database - European dataset from Kaggle. This data set is comprised of seven (7) tables.
+    1. Country
+    2. League
+    3. Player
+    4. Plater Attribute
+    5. Team
+    6. Team Attribute
+    7. Match
+
+# Standards
+**Standard 1:** In the matches table, 11 players from each team are listed. I assumed that these 11 players are the only players that participated in the specific game, although this is highly unlikely.
+**Standard 2:** I changed all column headers to follow the specific format of capitalizing the first letter of each word and connecting the words without underscore, like this example: "CountryID".
+**Standard 3:** If a column contained more than 75% missing data, I eliminated that column from the table.
+**Standard 4:** To keep the data as concise as possible, I dropped any column that I deemed unnecessary or useful to achieve the goals of this report.
+
+# Biases
+**Bias 1:** Clear information about players in each team is not part of this data set. This may be because the players can change at any moment in the game and this information is not entered.
+**Bias 2:** I have no expertise in football. There may be parts of the data that I have overlooked that may have been most important and I may have given importance to parts of the data that may have had little significance.
+
+# Conclusions
+**The Analysis of the Data:** I reviewed nearly 200,000 data points related to the European football matches. <br>
+**The Goals:** The major goal of this analysis was to find a model that could predict the outcome of a match.
+I utilized the 8 models listed below and the accuracy score of each model. 
+    1. Logistic Regression: 52
+    2. Logistic Regression with Elastic Net Regularization: 50
+    3. Decision Tree: 47
+    4. Random Forest: 45
+    5. Random Forest with Grid Search: 50
+    6. Random Forest with Randomized Search: 51
+    7. Support Vector Classification (SVC): 53
+    8. Principle Component Analysis (SVC): 52 <br>
+<br>
+**Overall Conclusion:** As can be seen by their performance analyses, none of the models I utilized in this report can be relied on to predict the outcome of a match. This analysis seems to indicate that it is not possible to adequately predict the outcome of a football match based on the data from the datasets I analyzed. Based on my analysis, I recommend against creating a business based on betting on such matches. <br>
