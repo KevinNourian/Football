@@ -47,13 +47,14 @@ I used the Ultimate 25k+ Matches Football Database - European dataset from Kaggl
 **The Analysis of the Data:** I reviewed nearly 200,000 data points related to the European football matches. <br>
 **The Goals:** The major goal of this analysis was to find a model that could predict the outcome of a match.
 I utilized the 8 models listed below and the accuracy score of each model.
-    1. Logistic Regression: 52
-    2. Logistic Regression with Elastic Net Regularization: 50
-    3. Decision Tree: 47
-    4. Random Forest: 45
-    5. Random Forest with Grid Search: 50
-    6. Random Forest with Randomized Search: 51
-    7. Support Vector Classification (SVC): 53
-    8. Principle Component Analysis (SVC): 52 <br>
-<br>
-**Overall Conclusion:** As can be seen by their performance analyses, none of the models I utilized in this report can be relied on to predict the outcome of a match. This analysis seems to indicate that it is not possible to adequately predict the outcome of a football match based on the data from the datasets I analyzed. Based on my analysis, I recommend against creating a business based on betting on such matches. <br>
+<BR>
+    1. Logistic Regression: 52 <BR>
+    2. Logistic Regression with Elastic Net Regularization: 50 <BR>
+    3. Decision Tree: 47 <BR>
+    4. Random Forest: 45 <BR>
+    5. Random Forest with Grid Search: 50 <BR>
+    6. Random Forest with Randomized Search: 51 <BR>
+    7. Support Vector Classification (SVC): 53 <BR>
+    8. Principle Component Analysis (SVC): 52 <BR>
+<BR>
+**Overall Conclusion:** As can be seen by their performance analyses, none of the models I utilized in this report can be relied on to predict the outcome of a match. This analysis seems to indicate that it is not possible to adequately predict the outcome of a football match based on the data from the datasets I analyzed. Based on my analysis, I recommend creating a business based on betting on such matches with caution. 
