@@ -1,4 +1,4 @@
-![Alt_Text](https://github.com/KevinNourian/Red-Wine/blob/main/Images/Wine.PNG)
+![Alt_Text](https://github.com/KevinNourian/Football/blob/main/Images/football.png)
 
 # Introduction
 Football is believed to have originated in China in the third century BC. It is the world’s most popular ball game in numbers of players and spectators. Football, is a game in which two teams of 11 players, use any part of their bodies except their hands and arms to maneuver the ball into the opposing team’s goal. Only the goalkeeper is permitted to use his hands and may do so only within the penalty area surrounding the goal. The team that scores the most goals wins. The standard length of a game is 90 minutes with a short break, known as "half time," at the 45-minute mark. Football’s governing body is the Fédération Internationale de Football Association (FIFA). Only America and Canada call the sport soccer.
@@ -46,7 +46,7 @@ I used the Ultimate 25k+ Matches Football Database - European dataset from Kaggl
 # Conclusions
 **The Analysis of the Data:** I reviewed nearly 200,000 data points related to the European football matches. <br>
 **The Goals:** The major goal of this analysis was to find a model that could predict the outcome of a match.
-I utilized the 8 models listed below and the accuracy score of each model. 
+I utilized the 8 models listed below and the accuracy score of each model.
     1. Logistic Regression: 52
     2. Logistic Regression with Elastic Net Regularization: 50
     3. Decision Tree: 47
