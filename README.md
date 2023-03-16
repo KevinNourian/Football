@@ -1,4 +1,6 @@
 ![Alt_Text](https://github.com/KevinNourian/Football/blob/main/Images/football.png)
+# important
+Open the FootballProject.ipynb file first.
 
 # Introduction
 Football is believed to have originated in China in the third century BC. It is the world’s most popular ball game in numbers of players and spectators. Football, is a game in which two teams of 11 players, use any part of their bodies except their hands and arms to maneuver the ball into the opposing team’s goal. Only the goalkeeper is permitted to use his hands and may do so only within the penalty area surrounding the goal. The team that scores the most goals wins. The standard length of a game is 90 minutes with a short break, known as "half time," at the 45-minute mark. Football’s governing body is the Fédération Internationale de Football Association (FIFA). Only America and Canada call the sport soccer.
