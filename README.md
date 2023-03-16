@@ -7,8 +7,8 @@ Football is believed to have originated in China in the third century BC. It is 
 In this report, I analyze the data of the Ultimate 25k+ Matches Football Database (European) from Kaggle to determine if there are ways to gain an advantage in predicting the outcome of a game for purposes of betting.
 
 # Jupyter Notebooks
-For this project, I created a separate Jupyter Notebook for the data overview and cleaning part of this report. Therefore, this project is comprised of two Jupyter Notebooks:
-1. Data Overview and Cleaning Notebook
+For this project, I created a separate Jupyter Notebook for the data overview and preprocessing part of this report. Therefore, this project is comprised of two Jupyter Notebooks:
+1. Data Overview and preprocessing Notebook
 2. The Project Notebook
 Open the Project Notebook. It will import the Data Overview and Cleaning Notebook.
 
@@ -57,4 +57,4 @@ I utilized the 8 models listed below and the accuracy score of each model.
     7. Support Vector Classification (SVC): 53 <BR>
     8. Principle Component Analysis (SVC): 52 <BR>
 <BR>
-**Overall Conclusion:** As can be seen by their performance analyses, none of the models I utilized in this report can be relied on to predict the outcome of a match. This analysis seems to indicate that it is not possible to adequately predict the outcome of a football match based on the data from the datasets I analyzed. Based on my analysis, I recommend creating a business based on betting on such matches with much caution. 
+**Overall Conclusion:** As can be seen by their performance analyses, none of the models I utilized in this report can be relied on to predict the outcome of a match. This analysis seems to indicate that it is not possible to adequately predict the outcome of a football match based on the data from the datasets I analyzed. Based on my analysis, I recommend creating a business based on betting on such matches with much caution.
