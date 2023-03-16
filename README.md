@@ -1,5 +1,5 @@
 ![Alt_Text](https://github.com/KevinNourian/Football/blob/main/Images/football.png)
-# important
+# Important
 Open the FootballProject.ipynb file first.
 
 # Introduction
