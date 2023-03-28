@@ -45,7 +45,7 @@ I used the Ultimate 25k+ Matches Football Database - European dataset from Kaggl
 
 # Conclusions
 **The Analysis of the Data:** I reviewed nearly 200,000 data points related to European football games. <br>
-**The Goal of the Project:** The major goal of this project was to find a model that could classify the outcome of a match with an adequate level of certainty.<br>
+**The Goal of the Project:** The major goal of this project was to find a model that could classify the outcome of a match with an adequate level of certainty. <br>
 **Models:**I utilized the 9 models. According to Standard 6, I decided to create a model that captures as many wins as possible. I was not interested in capturing losses or draws. So, the Recall Score for wins in each model is of ultimate interest to me. My standard for an acceptable Recall Score for wins is 75%.<br>
 **Recall Scores for Wins:** All models, except for Random Forest and Random Forest with Grid Search exceed my standard.<br>
 **Performance of ML Models:** The other scores indicate that this model is poor at capturing losses or draws.<br>
