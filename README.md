@@ -11,7 +11,7 @@ In addition to competing in their national leagues, European football clubs also
 
 Revenue for professional football clubs in Europe comes from a variety of sources, including ticket sales, merchandising, and broadcast rights. The largest and most successful clubs are often able to generate significant revenue through these channels, which allows them to attract top talent and remain competitive both domestically and internationally.
 
-Football’s governing body is the Fédération Internationale de Football Association (FIFA). 
+Football’s governing body is the Fédération Internationale de Football Association (FIFA).
 
 # Goal
 In this report, I analyze the data of the Ultimate 25k+ Matches Football Database (European) from Kaggle to determine if there are ways to gain an advantage in predicting the outcome of a game for purposes of betting.
@@ -43,28 +43,14 @@ I used the Ultimate 25k+ Matches Football Database - European dataset from Kaggl
     6. Team Attribute
     7. Match
 
-# Standards
-**Standard 1:** In the matches table, 11 players from each team are listed. I assumed that these 11 players are the only players that participated in the specific game, although this is highly unlikely.<BR>
-**Standard 2:** I changed all column headers to follow the specific format of capitalizing the first letter of each word and connecting the words without underscore, like this example: "CountryID".<BR>
-**Standard 3:** If a column contained more than 75% missing data, I eliminated that column from the table.<BR>
-**Standard 4:** To keep the data as concise as possible, I dropped any column that I deemed unnecessary or useful to achieve the goals of this report.
-
-# Biases
-**Bias 1:** Clear information about players in each team is not part of this data set. This may be because the players can change at any moment in the game and this information is not entered.<BR>
-**Bias 2:** I have no expertise in football. There may be parts of the data that I have overlooked that may have been most important and I may have given importance to parts of the data that may have had little significance.
-
 # Conclusions
-**The Analysis of the Data:** I reviewed nearly 200,000 data points related to the European football matches. <br>
-**The Goals:** The major goal of this analysis was to find a model that could predict the outcome of a match.
-I utilized the 8 models listed below and the accuracy score of each model.
-<BR>
-    1. Logistic Regression: 52 <BR>
-    2. Logistic Regression with Elastic Net Regularization: 50 <BR>
-    3. Decision Tree: 47 <BR>
-    4. Random Forest: 45 <BR>
-    5. Random Forest with Grid Search: 50 <BR>
-    6. Random Forest with Randomized Search: 51 <BR>
-    7. Support Vector Classification (SVC): 53 <BR>
-    8. Principle Component Analysis (SVC): 52 <BR>
-<BR>
-**Overall Conclusion:** As can be seen by their performance analyses, none of the models I utilized in this report can be relied on to predict the outcome of a match. This analysis seems to indicate that it is not possible to adequately predict the outcome of a football match based on the data from the datasets I analyzed. Based on my analysis, I recommend creating a business based on betting on such matches with much caution.
+**The Analysis of the Data:** I reviewed nearly 200,000 data points related to European football games. <br>
+**The Goal of the Project:** The major goal of this project was to find a model that could classify the outcome of a match with an adequate level of certainty.
+I utilized the 9 models. According to Standard 6, I decided to create a model that captures as many wins as possible. I was not interested in capturing losses or draws. So, the Recall Score for wins in each model is of ultimate interest to me. My standard for an acceptable Recall Score for wins is 75%.
+**Recall Scores for Wins:** All models, except for Random Forest and Random Forest with Grid Search exceed my standard.
+**Performance of ML Models:** The other scores indicate that this model is poor at capturing losses or draws.  
+**Feature Engineering and Hyperparameter Testing:** I tried feature engineering and hyperparameter testing with techniques such as PCA or Grid Search. PCA showed similar results as the other models. Random Forest with Grid Search improved the Recall Score for wins over the Random Forest model without Grid Search.
+**Amount and Quality of Data:** In many cases with ML, having better and more data is MUCH more important than the model used. I tried my best with the data I had and tried to use different models. My results did not improve.
+**Stochastic System:** A football match is a stochastic system. Two matches even with the same seemingly initial conditions like the players, place or weather can have varying results. This makes classifying the result of a football match extremely difficult. Human behavior is hard to classify. It cannot be easily capsulized in numbers. This is one of the reasons, it would be hard to classify the outcome of a game. For example, an important player could have fought with his wife or been involved in a traffic accident on the day of the game. This could have affected his performance and the outcome of the game, and this is not something that can be measured by the statistical information given in this dataset. Similarly, a low-performing player could have performed exceptionally well in a particular match, creating a win for his team that was unexpected.
+**Simple Guesses:** From some of the measures, like the number of goals, crossings and penalties, teams usually did better when they played at home than when they played away from home. Without any other data to rely on, a safe "guess" may be to pick the winner of a match simply based on if a team is playing at home or away from home.
+**Business Recommendation:** I recommend moving with caution if one decides to create a business based on betting on such matches.
