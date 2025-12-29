@@ -14,7 +14,7 @@ Revenue for professional football clubs in Europe comes from a variety of source
 Football’s governing body is the Fédération Internationale de Football Association (FIFA).
 
 # Goal
-In this report, I analyze the data of the Ultimate 25k+ Matches Football Database (European) to determine if there are ways to gain an advantage in predicting the outcome of a game for purposes of betting.
+In this report, I analyze the data of the Ultimate 25k+ Matches Football Database to determine if there are ways to gain an advantage in predicting the outcome of a game for purposes of betting.
 
 # Jupyter Notebooks
 For this project, I created a separate Jupyter Notebook for the data overview and preprocessing part of this report. Therefore, this project is comprised of two Jupyter Notebooks:
